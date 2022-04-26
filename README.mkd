@@ -15,7 +15,7 @@ Para visualizar o código basta abrir o arquivo **accelerator.py** em qualquer e
 
 <h2>Como funciona? 🤔</h2>
 
-No terminal será solicitado o nome da empresa que esta realizando a compra.
+No terminal será solicitado o nome da empresa que está realizando a compra.
 
 Após digitar o nome da empresa será pedido a quantidade de latas de energético adquiridas.
 
@@ -23,7 +23,7 @@ Após digitar o nome da empresa será pedido a quantidade de latas de energétic
 
 Caso o número de latas não seja um número inteiro é exibido o resultado seguinte:
 
-<img src="./imageReadMe/imagetwo.png">
+<img src="./imageReadMe/imageTwo.png">
 
 Em seguida será perguntado se você deseja adicionar mais empresas para repetir o processo de cadastro. Caso seja adicionado mais empresas as perguntas serão repetidas e os dados guardados. 
 
