@@ -1,16 +1,16 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>148330d5-9919-4cb2-9213-f67586f0fa88</ProjectGuid>
+    <ProjectGuid>57eb2546-69ab-4745-9f5a-32d554291448</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Aceleradora_Ágil___energéticos_accelerator.py</StartupFile>
+    <StartupFile>accelerator.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Aceleradora Ágil - energéticos accelerator</Name>
-    <RootNamespace>Aceleradora Ágil - energéticos accelerator</RootNamespace>
+    <Name>accelerator</Name>
+    <RootNamespace>accelerator</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Aceleradora_Ágil___energéticos_accelerator.py" />
+    <Compile Include="accelerator.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

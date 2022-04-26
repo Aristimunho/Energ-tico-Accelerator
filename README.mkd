@@ -1,0 +1,51 @@
+<h2>📋Gerador de notas fiscais</h2>
+<h2>Energéticos Accelerator 🥫</h2>
+
+Este é um projeto  de terminal feito para a Aceleradora Ágil. O projeto  resulta em uma nota fiscal de empresas que compram bebidas energéticas com a Energéticos Accelerator.
+
+------
+
+<h2>Como usar?</h2>
+
+No Visual Studio de start na aplicação **accelerator.sln** ou **accelerator.pyproj** , será aberto o terminal onde é possível utilizar a aplicação.
+
+Para visualizar o código basta abrir o arquivo **accelerator.py** em qualquer editor de texto. Também é possível copiar o código e colocar em um arquivo Python no <a href="https://replit.com/">replit</a> para usar sem ter nenhum software específico instalado.
+
+------
+
+<h2>Como funciona? 🤔</h2>
+
+No terminal será solicitado o nome da empresa que esta realizando a compra.
+
+Após digitar o nome da empresa será pedido a quantidade de latas de energético adquiridas.
+
+<img src="./imageReadMe/imageOne.png">
+
+Caso o número de latas não seja um número inteiro é exibido o resultado seguinte:
+
+<img src="./imageReadMe/imagetwo.png">
+
+Em seguida será perguntado se você deseja adicionar mais empresas para repetir o processo de cadastro. Caso seja adicionado mais empresas as perguntas serão repetidas e os dados guardados. 
+
+<img src="./imageReadMe/imageThree.png">
+
+Quando não houver mais empresas para serem adicionadas os dados serão mostrados como uma nota de negociações. 
+
+<img src="./imageReadMe/imageFour.png">
+
+Neste caso a empresa Super recebeu uma bonificação pelo valor gasto em produtos😁.
+
+------
+
+## Softwares  e linguagens usados 💾
+
+### <a href="https://visualstudio.microsoft.com/pt-br/"><img src="./imageReadMe/vs.png" style="zoom:80%;" ></a> <a href="https://www.python.org/"><img src="./imageReadMe/python.png"></a>
+
+------
+
+
+
+## Contato
+
+### <a href="https://github.com/Aristimunho"><img src="./imageReadMe/github.png"></a> <a href="https://www.linkedin.com/in/abraão-aristimunho-23a784223/"><img src="./imageReadMe/linkedin.png"></a>
+

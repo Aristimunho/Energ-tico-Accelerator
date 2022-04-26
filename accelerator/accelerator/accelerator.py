@@ -17,8 +17,9 @@ while(x == 1):
  #tenta executar o seguinte código.
  try:
   nome = input('Digite o nome da empresa referente a nota fiscal: ')
+  print()
   valor = int(input('Digite a QUANTIDADE de latas do energético: '))*4.5
-
+  print()
   # Cálculo dos impostos. 
   empresa['empresa'] = nome
   empresa['ICMS'] = round(valor*0.18,2)
@@ -31,8 +32,9 @@ while(x == 1):
   geral = round(geral + valor + empresa['ICMS'] + empresa['IPI'] + empresa['PIS'] + empresa['COFINS'],2)
   impostos = round((geral - mercadoria),2)
   empresas.append(empresa.copy())
-  
-  c = input('Digite "F" para finalizar a nota ou qualquer caractere para adicionar mais empresas. ')
+
+  print("Digite F para finalizar a nota ou qualquer caractere para adicionar mais empresas.")
+  c = input()
   print()
 
   #Impressão dos dados.
@@ -70,4 +72,3 @@ while(x == 1):
   print('Dados não conferem com o sistema!')
   print('Verifique se o valor total de latas apresenta apenas números inteiros e tente novamente')
   print()
-
